@@ -4,6 +4,11 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+@font-face {
+  font-family: 'QX_Bariol_Regular';
+  src: url(https://lab01-newbie.github.io/fonts/QX_Bariol_Regular.otf) format('otf');
+}
+
 body,
 html {
     width: 100%;
