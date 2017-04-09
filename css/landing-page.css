@@ -5,8 +5,8 @@
  */
 
 @font-face {
-  font-family: 'QX_Bariol_Regular';
-  src: url(https://lab01-newbie.github.io/fonts/QX_Bariol_Regular.otf) format('otf');
+    font-family: 'QX_Bariol_Regular';
+    src: url(https://lab01-newbie.github.io/fonts/QX_Bariol_Regular.otf) format('otf');
 }
 
 body,
@@ -27,20 +27,104 @@ h6 {
 }
 
 .topnav {
-    font-size: 14px; 
+    font-size: 14px;
 }
 
 .lead {
     font-size: 18px;
     font-weight: 400;
 }
+/*-----------------------------------------------------------------------------------*/
+/*	Section Testimonials
+/*-----------------------------------------------------------------------------------*/
+#testimonials {
+	margin-top:35px;
+	margin-bottom:57px;
+	padding-top:32px;
+	padding-bottom:40px;
+	background-image:url(../images/testimonials_bg.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+}
+#testimonials h2:before {
+	background-image:url(../images/title_line2.png);
+}
+#testimonials .testimonials_content {
+	padding-bottom:8px;
+	line-height:25px;
+	color:#333;
+}
+#testimonials .testim_foto {
+	float:left;
+	width:120px;
+	height:120px;
+	margin-right:20px;
+	border-radius:50%;
+    margin-top: -15px;
+}
+#testimonials .testim_author_inf {
+	font-size:14px;
+	color:#8a6d3b;
+    font-weight: bolder;
+}
+#testimonials .testim_author_inf span {
+	display:block;
+	text-transform:uppercase;
+	color:#333;
+}
 
+.clear {
+	clear:both;
+	height:0;
+	font-size:0;
+}
+.button {
+    background-color: #f77302; /* Orgren */
+    /*background-color: #fb8709;*/
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: white;
+    color: orangered;
+    border: 2px solid #f77302;
+}
+
+.button2:hover {
+        background-color: #f36e21;
+        color: white;
+}
+div.polaroid {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+
+
+
+div.container1 {
+    text-align: center;
+    padding: 10px 20px;
+}
 .intro-header {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background: url(../img/intro-bg.png) no-repeat center center;
     background-size: cover;
 }
 
@@ -50,11 +134,11 @@ h6 {
     padding-bottom: 20%;
 }
 
-.intro-message > h1 {
-    margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 5em;
-}
+    .intro-message > h1 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 5em;
+    }
 
 .intro-divider {
     width: 400px;
@@ -71,9 +155,9 @@ h6 {
         padding-bottom: 15%;
     }
 
-    .intro-message > h1 {
-        font-size: 3em;
-    }
+        .intro-message > h1 {
+            font-size: 3em;
+        }
 
     ul.intro-social-buttons > li {
         display: block;
@@ -81,9 +165,9 @@ h6 {
         padding: 0;
     }
 
-    ul.intro-social-buttons > li:last-child {
-        margin-bottom: 0;
-    }
+        ul.intro-social-buttons > li:last-child {
+            margin-bottom: 0;
+        }
 
     .intro-divider {
         width: 100%;
@@ -98,7 +182,7 @@ h6 {
 }
 
 .content-section-a {
-    padding: 50px 0;
+    padding: 20px 0;
     background-color: #f8f8f8;
 }
 
@@ -119,21 +203,21 @@ h6 {
 }
 
 .banner {
-    padding: 100px 0;
+    padding: 100px 50px;
     color: #f8f8f8;
     background: url(../img/banner-bg.jpg) no-repeat center center;
     background-size: cover;
 }
 
-.banner h2 {
-    margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 3em;
-}
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
 
-.banner ul {
-    margin-bottom: 0;
-}
+    .banner ul {
+        margin-bottom: 0;
+    }
 
 .banner-social-buttons {
     float: right;
@@ -160,9 +244,9 @@ h6 {
         padding: 0;
     }
 
-    ul.banner-social-buttons > li:last-child {
-        margin-bottom: 0;
-    }
+        ul.banner-social-buttons > li:last-child {
+            margin-bottom: 0;
+        }
 }
 
 footer {

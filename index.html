@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+
     <title>Litten</title>
+    <link rel="shortcut icon" href="img/ico.jpg">
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -18,7 +20,7 @@
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation" style="background-color: #f38232;">
         <div class="container topnav">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -34,13 +36,28 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#about">Giới thiệu</a>
+                        <a href="#mainpage">Trang chủ</a>
                     </li>
                     <li>
-                        <a href="#services">Sản phẩm</a>
+                        <a href="#problem">Thực trạng</a>
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Giải pháp
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: #fc8a39;">
+                            <a class="dropdown-item" href="#necklace">Vòng cổ </a> </br>
+                            <a class="dropdown-item" href="#app">Ứng dụng Litten</a></br>
+                            <a class="dropdown-item" href="#target">Đối tượng</a></br>
+                            <a class="dropdown-item" href="#benefit">Lợi nhuận</a></br>
+                        </div>
                     </li>
                     <li>
-                        <a href="#contact">Liên hệ</a>
+                        <a href="#product">Sản phẩm</a>
+                    </li>
+                    <li>
+                        <a href="#information">Thông tin nhóm</a>
                     </li>
                 </ul>
             </div>
@@ -50,7 +67,7 @@
     </nav>
 
     <!-- Header -->
-  
+    <a name="mainpage"></a>
     <div class="intro-header">
         <div class="container">
             <div class="row">
@@ -58,125 +75,225 @@
                     <div class="intro-message">
                         <h1>Litten</h1>
                         <h3>Mang công nghệ đến cho thú cưng của bạn</h3>
-                         <hr class="intro-divider">
-                        <!--<ul class="list-inline intro-social-buttons">
-                            <li>
-                                <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                            </li>
-                        </ul> -->
+                        <hr class="intro-divider">
+
                     </div>
                 </div>
             </div>
         </div>
         <!-- /.container -->
     </div>
+    <button></button>
     <!-- /.intro-header -->
     <!-- Page Content -->
-    <a name="about"></a>
+    <a name="problem"></a>
     <div class="content-section-a">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Các vấn đề chăm sóc sức khỏe thú cưng hiện nay: <br>Khó khăn- thiếu chính xác- không tiện lợi</h2>
-                    <p class="lead">Bạn là một người yêu thú cưng? <br>Bạn luôn muốn thú cưng khỏe mạnh nhất? <br>Bạn muốn biết trình trạng thú cưng ra sao? Nhưng bạn quá bận rộn? <br>Bạn không thể theo dõi quá trình sức khỏe thú cưng một cách tiện lợi nhất?</p>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/ipad.png" alt="">
-                </div>
+        <center>
+            <h2 class="section-heading">
+                <font color="#fc8a39"> Các vấn đề chăm sóc sức khỏe thú cưng hiện nay </font>
+                <h3>Khó khăn- thiếu chính xác- không tiện lợi</h3>
+            </h2>
+        </center>
+
+        <div>
+            <br /> <br />
+            <p class="lead" style="margin-left:150px"><strong><font size="3" color="#fb8709">➢ Bạn là một người yêu thú cưng? </font></strong> </p>
+
+            <div class="polaroid" style="width:400px;height:300px ;margin-left:300px;float:left">
+
+                <img src="img/ThucTrang/1.jpg" alt="Pet" style="width:100%; height:100% ">
+            </div>
+            <div class="polaroid" style="width:400px;height:300px ;float:left">
+                <img src="img/ThucTrang/2.jpg" alt="Pet" style="width:100%; height:100%">
+            </div>
+            <div style="clear:both"></div>
+        </div>
+
+        <div>
+            <br /> <br />
+            <p class="lead" style="margin-left:150px"><strong><font size="3" color="#fb8709">➢ Bạn luôn muốn thú cưng khỏe mạnh nhất? </font></strong> </p>
+
+            <div class="polaroid" style="width:400px;height:300px ;margin-left:300px;float:left">
+
+                <img src="img/ThucTrang/3.jpg" alt="Pet" style="width:100%; height:100% ">
+            </div>
+            <div class="polaroid" style="width:400px;height:300px ;float:left">
+                <img src="img/ThucTrang/4.jpg" alt="Pet" style="width:100%; height:100%">
+            </div>
+            <div style="clear:both"></div>
+        </div>
+
+        <div>
+            <br /> <br />
+            <p class="lead" style="margin-left:150px"><strong><font size="3" color="#fb8709">➢ Bạn muốn biết trình trạng thú cưng ra sao? Nhưng bạn quá bận rộn! </font></strong> </p>
+
+            <div class="polaroid" style="width:400px;height:300px ;margin-left:300px;float:left">
+
+                <img src="img/ThucTrang/5.jpg" alt="Pet" style="width:100%; height:100% ">
+            </div>
+            <div class="polaroid" style="width:400px;height:300px ;float:left">
+                <img src="img/ThucTrang/6.jpg" alt="Pet" style="width:100%; height:100%">
+            </div>
+            <div style="clear:both"></div>
+        </div>
+
+
+        <div>
+            <br /> <br />
+            <p class="lead" style="margin-left:150px"><strong><font size="3" color="#fb8709">➢ Bạn không thể theo dõi quá trình sức khỏe thú cưng một cách tiện lợi nhất? </font></strong> </p>
+
+            <div class="polaroid" style="width:400px;height:300px ;margin-left:400px;float:left">
+
+                <img src="img/ThucTrang/7.jpg" alt="Pet" style="width:100%; height:100% ">
+            </div>
+
+            <div style="clear:both"></div>
+        </div>
+        <!--<button data-toggle="collapse" data-target="#Shorten" class="button2">Rút gọn</button>-->
+    </div>
+
+    <!--<div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-sm-6">
+                <hr class="section-heading-spacer">
+                <div class="clearfix"></div>
+
+                <p class="lead">
+                    Bạn là một người yêu thú cưng?
+
+
+                    <br>Bạn luôn muốn thú cưng khỏe mạnh nhất?
+
+                    <br>Bạn muốn biết trình trạng thú cưng ra sao? Nhưng bạn quá bận rộn?
+
+                    <br>Bạn không thể theo dõi quá trình sức khỏe thú cưng một cách tiện lợi nhất?
+                </p>
+            </div>
+            <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                <img class="img-responsive" src="img/ipad.png" alt="">
             </div>
         </div>
-        <!-- /.container -->
+    </div>-->
     </div>
-    <!-- /.content-section-a -->
+    <!--  Giai phap-->
+    <a name="product"></a>
+    <div>
+        <a name="solution"></a>
+        <center>
+            <h2 class="section-heading">
+                <font color="#fc8a10" size="10"> Giải pháp </font>
+
+            </h2>
+        </center>
+
+        <div>
+            <a name="necklace"></a>
+            <div class="content-section-b">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                            <hr class="section-heading-spacer">
+                            <div class="clearfix"></div>
+                            <h2 class="section-heading">Vòng cổ thông minh<br>Chăm sóc sức khỏe tốt nhất cho thú cưng của bạn</h2>
+                            <p class="lead">Với chiếc vòng cổ bạn đã có thể theo dõi sức khỏe thú cưng của bạn một cách tốt nhất.</p>
+                            <!--    <p class="lead">Với chiếc vòng cổ, bạn có những gì?<br>➢ Chức năng đo nhịp tim, nhịp thở.<br>➢ Đo dấu hiệu vận động: quãng đường, calorie tiêu thụ, thời gian ngủ, thời gian vận động.<br>➢ Đo nhiệt độ cơ thể của thú cưng.<br>➢ Định vị vị trí của thú cưng. </p>-->
+                            <a href="necklace\Necklace.html" target="_blank">
+                                <button class="button button2">Chi tiết...</button>
+                            </a>
+                        </div>
+                        <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                            <img class="img-responsive" src="img/necklace.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- /.container -->
+            </div>
+            <!-- /.content-section-a -->
+            <a name="app"></a>
+            <div class="content-section-a">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5 col-sm-6">
+                            <hr class="section-heading-spacer">
+                            <div class="clearfix"></div>
+                            <h2 class="section-heading">Ứng dụng Litten<br>Tiện lợi- Kết nối- Sẻ chia</h2>
+                            <p class="lead">Ứng dụng Litten giúp bạn kết nối với Vòng cổ thông minh để nhận được dữ liệu và giám sát thú cưng của bạn.<br>Ngoài ra, Litten còn giúp bạn chia sẻ, kết nối và học hỏi với các chủ thú cưng khác.</p>
+                            <!--<p class="lead">Litten có những gì?<br>➢ Ghi nhận lại kết quả của nhịp tim, nhịp thở, nhiệt độ của thú cưng theo một tiến trình.<br>➢ Tìm kiếm thú cưng thông qua thiết bị định vị.<br>➢ Liên kết và gửi quá trình theo dõi đến cửa hàng thú y khi thú cưng bị bệnh.<br>➢ Là nơi lưu trữ và chia sẻ trạng thái, khoảng khắc của thú cưng lên tường.<br>➢ Có thể kết bạn, giao lưu, học hỏi và chia sẻ kinh nghiệm với các chủ thú cưng khác.</p>-->
+                            <a href="app\Application.html" target="_blank">
+                                <button class="button button2">Chi tiết...</button>
+                            </a>
+                        </div>
+
+                        <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                            <img class="img-responsive" src="img/Logo.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- /.container -->
+            </div>
+        </div>
+    </div>
+
+    <!--doi tuong huong den-->
+    <a name="target"></a>
+    <center>
+        <h2 class="section-heading">
+            <font color="#f38232" size="5"> Đối tượng hướng đến </font>
+        </h2>
+    </center>
+    <div>
+
+        <div class="polaroid" style="width:300px;height:400px ;margin-left:100px;float:left">
+            <img src="img/chu.jpg" alt="Pet" style="width:100%; height:100% ">
+            <div class="container1 ">
+                <p>➢ Những người nuôi thú cưng </p>
+            </div>
+        </div>
+        <div class="polaroid" style="width:300px;height:400px ;float:left">
+            <img src="img/giao.jpg" alt="Pet" style="width:100%; height:100%">
+            <div class="container1 ">
+                <p>➢ Những người muốn học hỏi giao lưu và chia sẻ về chủ đề thú cưng</p>
+            </div>
+        </div>
+        <div class="polaroid" style="width:300px;height:400px ;float:left">
+            <img src="img/cua.jpg" alt="Pet" style="width:100%; height:100%">
+            <div class="container1 ">
+                <p>➢ Cửa hàng thú y</p>
+            </div>
+        </div>
+        <div class="polaroid" style="width:300px;height:400px ;float:left">
+            <img src="img/care.jpg" alt="Pet" style="width:100%; height:100%">
+            <div class="container1 ">
+                <p>➢ Thú cưng cần chăm sóc.</p>
+            </div>
+        </div>
+        <div style="clear:both"></div>
+        <br />
+    </div>
+
+
+    <!--loi ich-->
+    <br /> <br />
+    <a name="benefit"></a>
     <div class="content-section-b">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Vòng cổ thông minh<br>Chăm sóc sức khỏe tốt nhất cho thú cưng của bạn</h2>
-                    <p class="lead">Chỉ với một chiếc vòng cổ bạn đã có thể theo dõi sức khỏe thú cưng của bạn một cách tốt nhất.</p>
-                    <p class="lead">Với chiếc vòng cổ, bạn có những gì?<br>➢ Chức năng đo nhịp tim, nhịp thở.<br>➢ Đo dấu hiệu vận động: quãng đường, calorie tiêu thụ, thời gian ngủ, thời gian vận động.<br>➢ Đo nhiệt độ cơ thể của thú cưng.<br>➢ Định vị vị trí của thú cưng. </p>
-                </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="img/dog.png" alt="">
-                </div>
-            </div>
-        </div>
-        <!-- /.container -->
-    </div>
-
-
-    <!-- /.content-section-a -->
-    <div class="content-section-a">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Ứng dụng Litten<br>Tiện lợi- Kết nối- Sẻ chia</h2>
-                    <p class="lead">Ứng dụng Litten giúp bạn kết nối với Vòng cổ thông minh để nhận được dữ liệu và giám sát thú cưng của bạn.<br>Ngoài ra, Litten còn giúp bạn chia sẻ, kết nối và học hỏi với các chủ thú cưng khác.</p>
-                    <p class="lead">Litten có những gì?<br>➢ Ghi nhận lại kết quả của nhịp tim, nhịp thở, nhiệt độ của thú cưng theo một tiến trình.<br>➢ Tìm kiếm thú cưng thông qua thiết bị định vị.<br>➢ Liên kết và gửi quá trình theo dõi đến cửa hàng thú y khi thú cưng bị bệnh.<br>➢ Là nơi lưu trữ và chia sẻ trạng thái, khoảng khắc của thú cưng lên tường.<br>➢ Có thể kết bạn, giao lưu, học hỏi và chia sẻ kinh nghiệm với các chủ thú cưng khác.</p>
-
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/Logo.jpg" alt="">
-                </div>
-            </div>
-        </div>
-        <!-- /.container -->
-    </div>
-    <!-- /.content-section-a -->
-    <!-- /.content-section-b -->
-    <div class="content-section-b">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Đối tượng hướng đến</h2>
+                    <h2 class="section-heading"><font color="#f38232" font="6">Lợi nhuận</font> </h2>
                     <p class="lead">
-                        ➢ Những người nuôi thú cưng
-                        <br>➢ Những người muốn học hỏi giao lưu và chia sẻ về chủ đề thú cưng
-                        <br>➢ Cửa hàng thú y
-                        <br>➢ Thú cưng cần chăm sóc.
-                    </p>
-                </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="img/DoiTuong.jpg" alt="">
-                </div>
-            </div>
-        </div>
-        <!-- /.container -->
-    </div>
-
-    <div class="content-section-b">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Lợi ích </h2>
-                    <p class="lead">
-                        ➢ Nhà phát triển:
+                        <b>➢ Nhà phát triển:</b>
                         <br>   - Vòng cổ: Thu lợi nhuận từ việc bán sản phẩm.
                         <br>   - App: Lợi nhuận từ việc sử dụng app, quảng cáo trong app.
                         <br>   - Từ các cửa hàng thú y: Lợi nhuận khi có thú cưng thông qua app đến khám, chữa bệnh.
-                        <br>➢ Người sử dụng: Chăm sóc thú cưng một cách toàn diện nhất, giao lưu kết bạn, học hỏi kinh nghiệm nuôi pet,... trên forum qua App.
-                        <br>➢ Trung gian: Bác sĩ thú y: Khi kí kết hợp đồng với công ty thì sẽ có nhiều khách hàng hơn, nâng cao uy tín, dễ dàng tạo thương hiệu cho của hàng, nâng cao thu nhập.
+                        <br><b>➢ Người sử dụng:</b> Chăm sóc thú cưng một cách toàn diện nhất, giao lưu kết bạn, học hỏi kinh nghiệm nuôi pet,... trên forum qua App.
+                        <br><b>➢ Trung gian:</b> Bác sĩ thú y: Khi kí kết hợp đồng với công ty thì sẽ có nhiều khách hàng hơn, nâng cao uy tín, dễ dàng tạo thương hiệu cho của hàng, nâng cao thu nhập.
                     </p>
 
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="img/LoiIch.jpg" alt="">
+                    <img class="img-responsive" src="img/loi.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -185,174 +302,6 @@
 
 
 
-    <div class="content-section-a">
-        <center> <h2>Sản phẩm chi tiết </h2> </center>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-
-                    <h3>❖ Vòng cổ Litten</h3>
-                    <p class="lead">
-                        <br>  ➢ Chức năng đo nhịp tim, nhịp thở.
-                        <br>  ➢ Đo dấu hiệu vận động: quãng đường đi, calorie tiêu thụ, thời gian ngủ, thời gian vận động.
-                        <br>  ➢ Cảm biến thân nhiệt.
-                        <br>  ➢ Định vị GPS.
-                        <br>  ➢ Trang bị pin li-ion có thời gian chờ lên đến 3 tháng và có khả năng chống bụi, nước theo tiêu chuẩn IP68 (Chống bụi, chống nước, chịu được khoảng thời gian dài dưới độ sâu trên 1m và có áp lực).
-                        <br>  ➢ Vòng kết nối với smartphone hoặc máy tính bằng Bluetooth, wi-fi thông qua ứng dụng Litten.
-                        <br>  ➢ Cảnh báo trên ứng dụng khi chiếc vòng bị tháo hoặc bị tác dụng lực.
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/phones.png" alt="">
-
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-
-                    <h3 class="section-heading">❖ Ứng dụng Litten </h3>
-                    <p class="lead">
-                        ➢ Hiện thị thông tin các chỉ số của thú cưng hiện tại ở màn hình chính của app
-                    </p>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/TrangChinh.jpg" alt="" />
-                </div>
-            </div>
-        </div>
-        <div class="content-section-b">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                        <hr class="section-heading-spacer">
-                        <div class="clearfix"></div>
-                        <h4 class="section-heading">Menu ứng dụng</h4>
-                        <p class="lead">
-                            ➢ Forum
-                            <br>➢ Thông tin thú cưng
-                            <br>➢ Bản đồ
-                            <br>➢ Lịch sử
-                            <br>➢ Giúp đỡ
-                        </p>
-                    </div>
-                    <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                        <img class="img-responsive" src="img/Menu.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-            <!-- /.container -->
-        </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h4 class="lead">
-                        ➢ Forum:
-                        <br>    ▪ Nơi giao lưu, kết bạn, học hỏi các kinh nghiệm từ các người nuôi thú cưng khác
-                        <br>	▪ Nơi để chia sẻ lưu trữ thông tin, hình ảnh thú cưng của người chủ
-                    </h4>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/Forum.jpg" alt="">
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="content-section-a">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-5 col-sm-6">
-                        <hr class="section-heading-spacer">
-                        <div class="clearfix"></div>
-                        <h4 class="lead">
-                            ➢ Thông tin, lý lịch của thú cưng
-                            <br>		▪ Tên
-                            <br>		▪ Tuổi
-                            <br>		▪ Thú cưng: chó/ mèo
-                            <br>		▪ Loại thú cưng
-                            <br>		▪ Chỉ số bình thường của thú cưng
-                        </h4>
-                    </div>
-                    <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                        <img class="img-responsive" src="img/ThongTin.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="content-section-a">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-5 col-sm-6">
-                        <hr class="section-heading-spacer">
-                        <div class="clearfix"></div>
-                        <h4 class="lead">
-                            ➢ 	 Bản đồ:
-                            <br>		▪ Đưa được vị trí của thú cưng lên bản đồ: sử dụng GPS được thiết kế trong chiếc vòng
-                            <br>		▪ Đưa được vị trí của người chủ: GPS trên thiết bị điện thoại
-                            <br>		▪ Hướng dẫn cách di chuyển từ người chủ đến thú cưng: đường đi ngắn nhất
-                            <br>		▪ Thể hiện các vị trí của cửa hàng thú ý xung quanh thú cưng lên bản đồ
-                            <br>		▪ Đưa các thông tin các cửa hàng dành cho thú cưng lên bản đồ
-                        </h4>
-                    </div>
-                    <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                        <img class="img-responsive" src="img/BanDo.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="content-section-a">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-5 col-sm-6">
-                        <hr class="section-heading-spacer">
-                        <div class="clearfix"></div>
-                        <h4 class="lead">
-                            ➢ 	Lịch sử:
-                            <br>		▪ Các thông số của thú cưng được cập nhập liên tục theo giờ gửi qua wifi và Bluetooth.
-                            <br>		▪ Ghi lại tiến trình và lữu trữ các thông tin
-                            <br>		▪ Tổng hợp lại các chỉ số theo tháng, theo tuần
-                        </h4>
-                    </div>
-                    <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                        <img class="img-responsive" src="img/LichSu.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="content-section-a">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-5 col-sm-6">
-                        <hr class="section-heading-spacer">
-                        <div class="clearfix"></div>
-                        <h4 class="lead">
-                            ➢ 	Giúp đỡ:
-                            <br>		▪ Chăm sóc cưng: một số cách chăm sóc, cách phát hiện bệnh của thú cưng
-                            <br>		▪ Huấn luyện: cách huấn luyện thú cưng
-                            <br>		▪ Lời khuyên, mách nước: một số cách giúp thú cưng phát triển tốt nhất
-                        </h4>
-                    </div>
-                    <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                        <img class="img-responsive" src="img/Help.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <!-- /.container -->
-    </div>
 
 
 
@@ -360,10 +309,7 @@
 
 
 
-
-
-
-    <a name="contact"></a>
+    <a name="information"></a>
     <div class="banner">
         <div class="container">
             <div class="row">
@@ -401,6 +347,8 @@
         <!-- /.container -->
     </div>
     <!-- /.banner -->
+
+
     <!-- Footer -->
     <footer>
         <div class="container">
